@@ -57,7 +57,13 @@ class Rainbow extends FFA{
 }
 
 module.exports = Rainbow;
-Rainbow.prototype = new FFA();
+Rainbow.prototype = <div class="setting mb-10" data-tooltip="Set your custom text">
+  Label
+  <select>
+    <option value="1">Entry 1</option>
+    <option value="2">Entry 2</option>
+  </select>
+</div>
 
 
 
